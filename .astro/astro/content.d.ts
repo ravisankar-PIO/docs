@@ -157,322 +157,329 @@ declare module 'astro:content' {
   slug: "browsers/ifs-browser";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "browsers/index.mdx": {
 	id: "browsers/index.mdx";
   slug: "browsers";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "browsers/object-browser.mdx": {
 	id: "browsers/object-browser.mdx";
   slug: "browsers/object-browser";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "browsers/user-library-list.mdx": {
 	id: "browsers/user-library-list.mdx";
   slug: "browsers/user-library-list";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "dev/api.md": {
 	id: "dev/api.md";
   slug: "dev/api";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "dev/examples.mdx": {
 	id: "dev/examples.mdx";
   slug: "dev/examples";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "dev/getting_started.mdx": {
 	id: "dev/getting_started.mdx";
   slug: "dev/getting_started";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "dev/scope.mdx": {
 	id: "dev/scope.mdx";
   slug: "dev/scope";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "dev/variables.mdx": {
 	id: "dev/variables.mdx";
   slug: "dev/variables";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/actions/custom-vars.mdx": {
 	id: "developing/actions/custom-vars.mdx";
   slug: "developing/actions/custom-vars";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/actions/execution.mdx": {
 	id: "developing/actions/execution.mdx";
   slug: "developing/actions/execution";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/actions/index.mdx": {
 	id: "developing/actions/index.mdx";
   slug: "developing/actions";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/debug/index.mdx": {
 	id: "developing/debug/index.mdx";
   slug: "developing/debug";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/editing-compiling.mdx": {
 	id: "developing/editing-compiling.mdx";
   slug: "developing/editing-compiling";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/iledocs.mdx": {
 	id: "developing/iledocs.mdx";
   slug: "developing/iledocs";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/local/actions.mdx": {
 	id: "developing/local/actions.mdx";
   slug: "developing/local/actions";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/local/azure.mdx": {
 	id: "developing/local/azure.mdx";
   slug: "developing/local/azure";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/local/getting-started.mdx": {
 	id: "developing/local/getting-started.mdx";
   slug: "developing/local/getting-started";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/local/git.mdx": {
 	id: "developing/local/git.mdx";
   slug: "developing/local/git";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/local/migrate.mdx": {
 	id: "developing/local/migrate.mdx";
   slug: "developing/local/migrate";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/local/structure.mdx": {
 	id: "developing/local/structure.mdx";
   slug: "developing/local/structure";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "developing/sourcedates.mdx": {
 	id: "developing/sourcedates.mdx";
   slug: "developing/sourcedates";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/clle/index.mdx": {
 	id: "extensions/clle/index.mdx";
   slug: "extensions/clle";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/db2i/AI/code-assistant.mdx": {
 	id: "extensions/db2i/AI/code-assistant.mdx";
   slug: "extensions/db2i/ai/code-assistant";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/db2i/AI/use-cases.mdx": {
 	id: "extensions/db2i/AI/use-cases.mdx";
   slug: "extensions/db2i/ai/use-cases";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/db2i/index.mdx": {
 	id: "extensions/db2i/index.mdx";
   slug: "extensions/db2i";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/rpgle/faq.mdx": {
 	id: "extensions/rpgle/faq.mdx";
   slug: "extensions/rpgle/faq";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/rpgle/index.mdx": {
 	id: "extensions/rpgle/index.mdx";
   slug: "extensions/rpgle";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "extensions/rpgle/linter.mdx": {
 	id: "extensions/rpgle/linter.mdx";
   slug: "extensions/rpgle/linter";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "help-and-support.mdx": {
 	id: "help-and-support.mdx";
   slug: "help-and-support";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "index.mdx": {
 	id: "index.mdx";
   slug: "index";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "login.mdx": {
 	id: "login.mdx";
   slug: "login";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "quickstart.mdx": {
 	id: "quickstart.mdx";
   slug: "quickstart";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "settings/connection.mdx": {
 	id: "settings/connection.mdx";
   slug: "settings/connection";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "settings/global.mdx": {
 	id: "settings/global.mdx";
   slug: "settings/global";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "settings/profiles.mdx": {
 	id: "settings/profiles.mdx";
   slug: "settings/profiles";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
+} & { render(): Render[".mdx"] };
+"tips/Customize the Terminal Prompt.mdx": {
+	id: "tips/Customize the Terminal Prompt.mdx";
+  slug: "tips/customize-the-terminal-prompt";
+  body: string;
+  collection: "docs";
+  data: any
 } & { render(): Render[".mdx"] };
 "tips/bash.mdx": {
 	id: "tips/bash.mdx";
   slug: "tips/bash";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "tips/ccsid.mdx": {
 	id: "tips/ccsid.mdx";
   slug: "tips/ccsid";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "tips/protect.mdx": {
 	id: "tips/protect.mdx";
   slug: "tips/protect";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "tips/setup.mdx": {
 	id: "tips/setup.mdx";
   slug: "tips/setup";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "tips/terminals.mdx": {
 	id: "tips/terminals.mdx";
   slug: "tips/terminals";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "tips/tricks.mdx": {
 	id: "tips/tricks.mdx";
   slug: "tips/tricks";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "workshop/db2i/index.mdx": {
 	id: "workshop/db2i/index.mdx";
   slug: "workshop/db2i";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "workshop/git/index.mdx": {
 	id: "workshop/git/index.mdx";
   slug: "workshop/git";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "workshop/index.mdx": {
 	id: "workshop/index.mdx";
   slug: "workshop";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "workshop/node/index.mdx": {
 	id: "workshop/node/index.mdx";
   slug: "workshop/node";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 };
 
@@ -484,5 +491,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = never;
 }
